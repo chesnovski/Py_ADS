@@ -94,7 +94,7 @@ def main():
                 clearDir(nameUrl)
                 print("File is downloading")
         else: 
-            print("ADS is disconnected") #close connection
+            print("ADS is disconnected.") #close connection
             plc.close()
             plc.open()
         
